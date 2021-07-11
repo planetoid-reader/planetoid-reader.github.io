@@ -94,6 +94,12 @@
     
         
         <url>
+            <loc>https://planetoid-reader.github.io/search/</loc>
+        </url>
+        
+    
+        
+        <url>
             <loc>https://planetoid-reader.github.io/tags/</loc>
         </url>
         
