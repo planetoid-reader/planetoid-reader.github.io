@@ -88,7 +88,7 @@
       <description>A minimal, responsive and light theme for Hugo inspired by Linux console.
 Installation $ mkdir themes $ cd themes $ git submodule add https://github.com/mrmierzejewski/hugo-theme-console.git hugo-theme-console See the Hugo documentation for more information.
 Configuration Set theme parameter in your config file:
-theme = &amp;quot;hugo-theme-console&amp;quot;    Plotly.d3.json(&#34;../plotly/plot_name.json&#34;, function(err, fig) { Plotly.plot(&#39;..\/plotly\/plot_name.json&#39;, fig.data, fig.layout, {responsive: true}); });  Comments   License Copyright © 2020 Marcin Mierzejewski
+theme = &amp;quot;hugo-theme-console&amp;quot;    Plotly.d3.json(&#34;../plotly/plot_name.json&#34;, function(err, fig) { Plotly.plot(&#39;..\/plotly\/plot_name.json&#39;, fig.data, fig.layout, {responsive: true}); });  License Copyright © 2020 Marcin Mierzejewski
 The theme is released under the MIT License.</description>
     </item>
     
