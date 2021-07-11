@@ -39,6 +39,31 @@
 <meta name="twitter:title" content="Warsaw, Poland"/>
 <meta name="twitter:description" content="Palace of Culture and Science (Polish: Pałac Kultury i Nauki), is a notable high-rise building in central Warsaw, Poland. With a total height of 237 metres (778 ft) it is the tallest building in Poland, the 5th-tallest building in the European Union (including spire) and one of the tallest on the European continent. Constructed in 1955, it houses various public and cultural institutions such as cinemas, theatres, libraries, sports clubs, university faculties and authorities of the Polish Academy of Sciences."/>
 
+<header>
+    <script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$','$$'], ['\\[', '\\]']],
+      processEscapes: true,
+      processEnvironments: true
+    },
+    options: {
+      skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+    }
+  };
+
+  window.addEventListener('load', (event) => {
+      document.querySelectorAll("mjx-container").forEach(function(x){
+        x.parentElement.classList += 'has-jax'})
+    });
+
+</script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    
+</header>
 
 
 </head>
@@ -86,16 +111,11 @@ Constructed in 1955, it houses various public and cultural institutions such as 
         <div class="footer">
     Powered by <a href="https://gohugo.io/">Hugo</a> with
     <a href="https://github.com/mrmierzejewski/hugo-theme-console/">Console Theme</a>. 
+    
 </div>
 
-        <script src="https://utteranc.es/client.js"
-        repo="planetoid-reader/planetoid-reader"
-        issue-term="pathname"
-        label="comment"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-</script>
+        
     </div>
   </body>
+  
 </html>

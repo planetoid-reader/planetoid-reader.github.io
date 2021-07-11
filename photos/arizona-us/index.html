@@ -39,6 +39,31 @@
 <meta name="twitter:title" content="Arizona, US"/>
 <meta name="twitter:description" content="The Grand Canyon is a steep-sided canyon carved by the Colorado River in Arizona, United States. The canyon is 277 miles (446 km) long, up to 18 miles (29 km) wide and attains a depth of over a mile (6,093 feet or 1,857 meters)."/>
 
+<header>
+    <script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$','$$'], ['\\[', '\\]']],
+      processEscapes: true,
+      processEnvironments: true
+    },
+    options: {
+      skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+    }
+  };
+
+  window.addEventListener('load', (event) => {
+      document.querySelectorAll("mjx-container").forEach(function(x){
+        x.parentElement.classList += 'has-jax'})
+    });
+
+</script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    
+</header>
 
 
 </head>
@@ -87,16 +112,11 @@ The canyon is 277 miles (446 km) long, up to 18 miles (29 km) wide and attains a
         <div class="footer">
     Powered by <a href="https://gohugo.io/">Hugo</a> with
     <a href="https://github.com/mrmierzejewski/hugo-theme-console/">Console Theme</a>. 
+    
 </div>
 
-        <script src="https://utteranc.es/client.js"
-        repo="planetoid-reader/planetoid-reader"
-        issue-term="pathname"
-        label="comment"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-</script>
+        
     </div>
   </body>
+  
 </html>

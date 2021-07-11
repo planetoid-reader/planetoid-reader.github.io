@@ -30,6 +30,31 @@ Configuration Set theme parameter in your config file:
 theme = &quot;hugo-theme-console&quot;    Plotly.d3.json(&#34;../plotly/plot_name.json&#34;, function(err, fig) { Plotly.plot(&#39;..\/plotly\/plot_name.json&#39;, fig.data, fig.layout, {responsive: true}); });  License Copyright © 2020 Marcin Mierzejewski
 The theme is released under the MIT License."/>
 
+<header>
+    <script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$','$$'], ['\\[', '\\]']],
+      processEscapes: true,
+      processEnvironments: true
+    },
+    options: {
+      skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+    }
+  };
+
+  window.addEventListener('load', (event) => {
+      document.querySelectorAll("mjx-container").forEach(function(x){
+        x.parentElement.classList += 'has-jax'})
+    });
+
+</script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    
+</header>
 
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
     
@@ -85,19 +110,15 @@ Plotly.d3.json("../plotly/plot_name.json", function(err, fig) {
 
 
 
+
         <div class="footer">
     Powered by <a href="https://gohugo.io/">Hugo</a> with
     <a href="https://github.com/mrmierzejewski/hugo-theme-console/">Console Theme</a>. 
+    
 </div>
 
-        <script src="https://utteranc.es/client.js"
-        repo="planetoid-reader/planetoid-reader"
-        issue-term="pathname"
-        label="comment"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-</script>
+        
     </div>
   </body>
+  
 </html>
