@@ -27,8 +27,12 @@
 <meta name="twitter:description" content="A minimal, responsive and light theme for Hugo inspired by Linux console.
 Installation $ mkdir themes $ cd themes $ git submodule add https://github.com/mrmierzejewski/hugo-theme-console.git hugo-theme-console See the Hugo documentation for more information.
 Configuration Set theme parameter in your config file:
-theme = &quot;hugo-theme-console&quot; License Copyright © 2020 Marcin Mierzejewski
-The theme is released under the MIT License. Check the original theme license for additional licensing information."/>
+theme = &quot;hugo-theme-console&quot;    Plotly.d3.json(&#34;../plotly/plot_name.json&#34;, function(err, fig) { Plotly.plot(&#39;..\/plotly\/plot_name.json&#39;, fig.data, fig.layout, {responsive: true}); });  Comments   License Copyright © 2020 Marcin Mierzejewski
+The theme is released under the MIT License."/>
+
+
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    
 
 </head>
 <body class="terminal">
@@ -60,14 +64,36 @@ The theme is released under the MIT License. Check the original theme license fo
 <p>A minimal, responsive and light theme for Hugo inspired by Linux console.</p>
 <p><img src="https://github.com/mrmierzejewski/hugo-theme-console/blob/master/images/preview.png?raw=true" alt="Console"></p>
 <h2 id="installation">Installation</h2>
-<pre><code>$ mkdir themes
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ mkdir themes
 $ cd themes
 $ git submodule add https://github.com/mrmierzejewski/hugo-theme-console.git hugo-theme-console
-</code></pre><p>See the <a href="https://gohugo.io/themes/installing/">Hugo documentation</a> for more information.</p>
+</code></pre></div><p>See the <a href="https://gohugo.io/themes/installing/">Hugo documentation</a> for more information.</p>
 <h2 id="configuration">Configuration</h2>
 <p>Set theme parameter in your config file:</p>
 <pre><code>theme = &quot;hugo-theme-console&quot;
-</code></pre><h2 id="license">License</h2>
+</code></pre>
+
+<div id="../plotly/plot_name.json" class="plotly" style="height:400px"></div>
+<script>
+Plotly.d3.json("../plotly/plot_name.json", function(err, fig) {
+    Plotly.plot('..\/plotly\/plot_name.json', fig.data, fig.layout, {responsive: true});
+});
+</script>
+<h2 id="comments">Comments</h2>
+
+
+
+
+<div class="comments" style="height:400px"></div>
+<script src="https://utteranc.es/client.js"
+        repo="planetoid-reader.github.io"
+        issue-term="title"
+        label="blog comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+<h2 id="license">License</h2>
 <p>Copyright © 2020 <a href="https://mrmierzejewski.com/">Marcin Mierzejewski</a></p>
 <p>The theme is released under the MIT License. Check the <a href="https://github.com/panr/hugo-theme-terminal/blob/master/LICENSE.md">original theme license</a> for additional licensing information.</p>
 
